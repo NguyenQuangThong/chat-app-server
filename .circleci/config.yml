@@ -18,6 +18,9 @@ jobs:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: 120600
           POSTGRES_DB: thongnguyen
+        auth:
+          username: thongnguyen120600
+          password: Anhhung789zxc!
     # Add steps to the job
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
