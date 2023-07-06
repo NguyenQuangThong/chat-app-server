@@ -13,7 +13,7 @@ jobs:
     # A list of available CircleCI Docker Convenience Images are available here: https://circleci.com/developer/images/image/cimg/openjdk
     docker:
       - image: cimg/openjdk:20.0.1
-      - image: my-postgres
+      - image: thongnguyen120600/docker_circle_ci
         environment:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: 120600
